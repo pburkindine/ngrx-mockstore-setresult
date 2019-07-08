@@ -1,0 +1,7 @@
+<h3>
+  Current: <span class="currentValue">{{ sampleValue$ | async }}</span>
+</h3>
+
+<input [(ngModel)]="newValue" type="number" /><button (click)="set()">
+  Set
+</button>
